@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css">
+    <title>DOM Manipulation</title>   
+</head>
+<body class="body">
+    <div>
+        <h1 class="heading">Student Portal</h1>
+    </div>
+    <div class="container">
+        <form class="form" id="label"  >
+            Name : <input type="text" id="username" placeholder="Enter your name" required >
+            <br>
+            <br>
+            Date of Birth : <input type="date" id="dob" placeholder="Date of birth" required >
+            <br>
+            <br>
+            Contact No <input type="number" id="contact" placeholder="Mobile Number" required>
+            <br>
+            <br>
+            City : <input type="text" id="city" placeholder="Where do you live?" required >
+            <br>
+            <br>
+            Degree : <input type="text" id="deg" placeholder="Course name" required>
+            <br>
+            <br>
+            E-mail : <input type="email" id="email" placeholder="Enter you email id" required >
+            <br>
+            <br>
+            <div class="btn">
+                <button  id="btn" >Submit</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="data">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Date of Birth</th>
+                <th>Contact Number</th>
+                <th>City</th>
+                <th>Degree</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </table>
+        <table id="d">
+       
+        </table>   
+    </div>
+</body>
+<script src="dom.js"></script>
+</html>
